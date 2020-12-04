@@ -1,0 +1,2442 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "DFDDataFlowModel",
+			"_id": "AAAAAAF1uyqm57rzji0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "DataFlowModel1",
+			"ownedElements": [
+				{
+					"_type": "DFDDiagram",
+					"_id": "AAAAAAF1uyqm6Lr0DMg=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "DFDDiagram1",
+					"ownedViews": [
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF1uyrHPLr6oa8=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uyrHPLr48os="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2LAmLfCgwftg=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyrHPLr6oa8="
+									},
+									"font": "Arial;13;0",
+									"left": 98,
+									"top": 109,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1wArBY1hZ/BM=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyrHPLr6oa8="
+									},
+									"font": "Arial;13;0",
+									"left": 98,
+									"top": 109,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1vIg6yLz2YDM=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyrHPLr6oa8="
+									},
+									"font": "Arial;13;0",
+									"left": 98,
+									"top": 109,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1u/zBzyxLILc=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyrHPLr6oa8="
+									},
+									"font": "Arial;13;0",
+									"left": 98,
+									"top": 109,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1u8gom5u4++4=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyrHPLr6oa8="
+									},
+									"font": "Arial;13;0",
+									"left": 98,
+									"top": 109,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyrHPrsAztc=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyrHPLr6oa8="
+									},
+									"font": "Arial;13;0",
+									"left": 98,
+									"top": 109,
+									"width": 87.4326171875,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyrHPbr7sbk=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyrHPLr6oa8="
+									},
+									"font": "Arial;13;0",
+									"left": 98,
+									"top": 114,
+									"width": 87.4326171875,
+									"height": 13,
+									"text": "운영자",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyrHPbr8/x4=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyrHPLr6oa8="
+									},
+									"font": "Arial;13;0",
+									"left": 8,
+									"top": 16,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 88,
+							"top": 104,
+							"width": 107.4326171875,
+							"height": 33,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uyrHPbr7sbk="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAF1uyslNbsTpHw=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uyslNbsRbp0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyslNrsUMJU=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyslNbsTpHw="
+									},
+									"font": "Arial;13;0",
+									"left": 252,
+									"top": 290,
+									"width": 83,
+									"height": 13,
+									"text": "회원정보 DB",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyslNrsV9WQ=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyslNbsTpHw="
+									},
+									"font": "Arial;13;0",
+									"left": 237,
+									"top": 290,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 232,
+							"top": 280,
+							"width": 113,
+							"height": 65,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uyslNrsUMJU="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1uyslNrsV9WQ="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAF1uys55LsfEM8=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uys537sd0ds="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uys55LsgOHM=",
+									"_parent": {
+										"$ref": "AAAAAAF1uys55LsfEM8="
+									},
+									"font": "Arial;13;0",
+									"left": 100,
+									"top": 442,
+									"width": 83,
+									"height": 13,
+									"text": "운동 DB",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uys55Lshwek=",
+									"_parent": {
+										"$ref": "AAAAAAF1uys55LsfEM8="
+									},
+									"font": "Arial;13;0",
+									"left": 85,
+									"top": 442,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 80,
+							"top": 432,
+							"width": 113,
+							"height": 49,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uys55LsgOHM="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1uys55Lshwek="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAF1uyt6lrsrLyw=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uyt6lbspDK4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyt6lrss+1Y=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyt6lrsrLyw="
+									},
+									"font": "Arial;13;0",
+									"left": 500,
+									"top": 410,
+									"width": 65.76171875,
+									"height": 13,
+									"text": "그림 DB",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyt6lrstRuo=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyt6lrsrLyw="
+									},
+									"font": "Arial;13;0",
+									"left": 485,
+									"top": 410,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 480,
+							"top": 400,
+							"width": 95.76171875,
+							"height": 46,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uyt6lrss+1Y="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1uyt6lrstRuo="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1uyu9s7s394U=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uyu9srs1tns="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyu9s7s4u0A=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyu9s7s394U="
+									},
+									"font": "Arial;13;0",
+									"left": 98,
+									"top": 240,
+									"width": 78,
+									"height": 26,
+									"text": "데이터베이스 관리",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyu9tLs54ec=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyu9s7s394U="
+									},
+									"font": "Arial;13;0",
+									"left": 98,
+									"top": 213,
+									"width": 78,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 88,
+							"top": 208,
+							"width": 98,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uyu9s7s4u0A="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1uyu9tLs54ec="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1uyzW5btIehA=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uyzW5LtGAi4="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyzW5btJQNQ=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyzW5btIehA="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 616,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "회원가입",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uyzW5btKACE=",
+									"_parent": {
+										"$ref": "AAAAAAF1uyzW5btIehA="
+									},
+									"font": "Arial;13;0",
+									"left": 378,
+									"top": 589,
+									"width": 54.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 368,
+							"top": 584,
+							"width": 74.18994140625,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uyzW5btJQNQ="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1uyzW5btKACE="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1uy48Artw6u4=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uy48AbtuuJk="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uy48ArtxZb8=",
+									"_parent": {
+										"$ref": "AAAAAAF1uy48Artw6u4="
+									},
+									"font": "Arial;13;0",
+									"left": 226,
+									"top": 456,
+									"width": 122.14794921875,
+									"height": 26,
+									"text": "운동 가이드라인/영상제공",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uy48A7tyTaI=",
+									"_parent": {
+										"$ref": "AAAAAAF1uy48Artw6u4="
+									},
+									"font": "Arial;13;0",
+									"left": 226,
+									"top": 429,
+									"width": 122.14794921875,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 216,
+							"top": 424,
+							"width": 142.14794921875,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uy48ArtxZb8="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1uy48A7tyTaI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1uy8KCLuAuow=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uy8KCLt+kZY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1uy8KCLuBwf8=",
+									"_parent": {
+										"$ref": "AAAAAAF1uy8KCLuAuow="
+									},
+									"model": {
+										"$ref": "AAAAAAF1uy8KCLt+kZY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 204,
+									"top": 437,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1uy8KCLuAuow="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uy48Artw6u4="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uys55LsfEM8="
+							},
+							"lineStyle": 2,
+							"points": "192:458;216:458",
+							"nameLabel": {
+								"$ref": "AAAAAAF1uy8KCLuBwf8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1uy//UruUlf4=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uy//UbuSWaY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1uy//UruV4RI=",
+									"_parent": {
+										"$ref": "AAAAAAF1uy//UruUlf4="
+									},
+									"model": {
+										"$ref": "AAAAAAF1uy//UbuSWaY="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 160,
+									"top": 291,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1uy//UruUlf4="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uyslNbsTpHw="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uyu9s7s394U="
+							},
+							"lineStyle": 2,
+							"points": "160:276;160:312;232:312",
+							"nameLabel": {
+								"$ref": "AAAAAAF1uy//UruV4RI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1uzC4Erum+Uc=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzC4Eruk6Yg="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1uzC4ErunC1s=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzC4Erum+Uc="
+									},
+									"model": {
+										"$ref": "AAAAAAF1uzC4Eruk6Yg="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 134,
+									"top": 347,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1uzC4Erum+Uc="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uys55LsfEM8="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uyu9s7s394U="
+							},
+							"lineStyle": 2,
+							"points": "120:276;120:432",
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzC4ErunC1s="
+							}
+						},
+						{
+							"_type": "DFDExternalEntityView",
+							"_id": "AAAAAAF1uzLzcLvgRIQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzLzcLve6AM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF2LAmLfyhhkus=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzLzcLvgRIQ="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 517,
+									"width": 165,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1wArBaFiJrSQ=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzLzcLvgRIQ="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 517,
+									"width": 165,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1vIg6z70lJXA=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzLzcLvgRIQ="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 517,
+									"width": 165,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1u/zB1yx5oHk=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzLzcLvgRIQ="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 517,
+									"width": 165,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1u8gopZvoO6k=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzLzcLvgRIQ="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 517,
+									"width": 165,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uzLzcbvmGHY=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzLzcLvgRIQ="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 517,
+									"width": 165,
+									"height": 13
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uzLzcLvhk18=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzLzcLvgRIQ="
+									},
+									"font": "Arial;13;0",
+									"left": 658,
+									"top": 522,
+									"width": 165,
+									"height": 13,
+									"text": "회원",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uzLzcLvifag=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzLzcLvgRIQ="
+									},
+									"font": "Arial;13;0",
+									"top": 96,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 648,
+							"top": 512,
+							"width": 185,
+							"height": 57,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzLzcLvhk18="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1uzPo+rwEpzc=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzPo+rwCZdk="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1uzPo+rwFuB4=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzPo+rwEpzc="
+									},
+									"model": {
+										"$ref": "AAAAAAF1uzPo+rwCZdk="
+									},
+									"font": "Arial;13;0",
+									"left": 526,
+									"top": 512,
+									"width": 104.7109375,
+									"height": 13,
+									"alpha": 0.034469099811859596,
+									"distance": 290.17236257093816,
+									"hostEdge": {
+										"$ref": "AAAAAAF1uzPo+rwEpzc="
+									},
+									"edgePosition": 1,
+									"text": "운동 방법 및 영상"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uzLzcLvgRIQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uy48Artw6u4="
+							},
+							"lineStyle": 2,
+							"points": "288:492;288:528;648:528",
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzPo+rwFuB4="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1uzQJM7wN1eQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzQJMrwLHvg="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uzQJM7wOKqA=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzQJM7wN1eQ="
+									},
+									"font": "Arial;13;0",
+									"left": 498,
+									"top": 352,
+									"width": 53,
+									"height": 26,
+									"text": "bmi 수치 계산",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uzQJM7wPUZM=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzQJM7wN1eQ="
+									},
+									"font": "Arial;13;0",
+									"left": 498,
+									"top": 325,
+									"width": 53,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 488,
+							"top": 320,
+							"width": 73,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzQJM7wOKqA="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1uzQJM7wPUZM="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1uzQwRrwZWnY=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzQwRrwXzuI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1uzQwR7wav3A=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzQwRrwZWnY="
+									},
+									"model": {
+										"$ref": "AAAAAAF1uzQwRrwXzuI="
+									},
+									"font": "Arial;13;0",
+									"left": 388,
+									"top": 307,
+									"width": 56.5703125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1uzQwRrwZWnY="
+									},
+									"edgePosition": 1,
+									"text": "신체 정보"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uzQJM7wN1eQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uyslNbsTpHw="
+							},
+							"lineStyle": 2,
+							"points": "344:328;488:328",
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzQwR7wav3A="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1uzRmy7wkWxI=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzRmyrwiZEA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1uzRmy7wlavw=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzRmy7wkWxI="
+									},
+									"model": {
+										"$ref": "AAAAAAF1uzRmyrwiZEA="
+									},
+									"font": "Arial;13;0",
+									"left": 577,
+									"top": 327,
+									"width": 125.4296875,
+									"height": 13,
+									"alpha": -1.7721136314035517,
+									"distance": 50.00999900019995,
+									"hostEdge": {
+										"$ref": "AAAAAAF1uzRmy7wkWxI="
+									},
+									"edgePosition": 1,
+									"text": "bmi 정보,사용자 성별"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uzeH37xgXRU="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uzQJM7wN1eQ="
+							},
+							"lineStyle": 2,
+							"points": "560:344;688:344;688:376",
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzRmy7wlavw="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1uzWYV7w5Y1k=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzWYVLw3l5E="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uzWYV7w6Yfo=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzWYV7w5Y1k="
+									},
+									"font": "Arial;13;0",
+									"left": 498,
+									"top": 272,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "그래프 만들기",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uzWYV7w7fkg=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzWYV7w5Y1k="
+									},
+									"font": "Arial;13;0",
+									"left": 498,
+									"top": 245,
+									"width": 54.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 488,
+							"top": 240,
+							"width": 74.18994140625,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzWYV7w6Yfo="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1uzWYV7w7fkg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1uzXO2bxGIT4=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzXO2bxE3cQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1uzXO2bxHHfM=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzXO2bxGIT4="
+									},
+									"model": {
+										"$ref": "AAAAAAF1uzXO2bxE3cQ="
+									},
+									"font": "Arial;13;0",
+									"left": 382,
+									"top": 267,
+									"width": 69.5703125,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1uzXO2bxGIT4="
+									},
+									"edgePosition": 1,
+									"text": "월초 몸무게"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uzWYV7w5Y1k="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uyslNbsTpHw="
+							},
+							"lineStyle": 2,
+							"points": "344:288;488:288",
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzXO2bxHHfM="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1uzZGnbxRoNA=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzZGnbxP21E="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1uzZGnbxSy8A=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzZGnbxRoNA="
+									},
+									"model": {
+										"$ref": "AAAAAAF1uzZGnbxP21E="
+									},
+									"font": "Arial;13;0",
+									"left": 576,
+									"top": 270,
+									"width": 143.7109375,
+									"height": 13,
+									"alpha": -1.7057731377538163,
+									"distance": 81.74350127074322,
+									"hostEdge": {
+										"$ref": "AAAAAAF1uzZGnbxRoNA="
+									},
+									"edgePosition": 1,
+									"text": "월별 몸무게 변화 그래프"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uzLzcLvgRIQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uzWYV7w5Y1k="
+							},
+							"lineStyle": 2,
+							"points": "561:288;728:288;728:512",
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzZGnbxSy8A="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1uzeH37xgXRU=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzeH37xeTyM="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uzeH4LxhvbE=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzeH37xgXRU="
+									},
+									"font": "Arial;13;0",
+									"left": 666,
+									"top": 408,
+									"width": 46.18994140625,
+									"height": 39,
+									"text": "캐릭터 외형 모션",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1uzeH4LxirE0=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzeH37xgXRU="
+									},
+									"font": "Arial;13;0",
+									"left": 666,
+									"top": 381,
+									"width": 46.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 656,
+							"top": 376,
+							"width": 66.18994140625,
+							"height": 82,
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzeH4LxhvbE="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1uzeH4LxirE0="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1uzlw1byP8Kc=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uzlw1LyNDkM="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1uzlw1byQRF4=",
+									"_parent": {
+										"$ref": "AAAAAAF1uzlw1byP8Kc="
+									},
+									"model": {
+										"$ref": "AAAAAAF1uzlw1LyNDkM="
+									},
+									"font": "Arial;13;0",
+									"left": 647,
+									"top": 479,
+									"width": 39,
+									"height": 13,
+									"alpha": -1.4876554175665393,
+									"distance": 24.08318915758459,
+									"hostEdge": {
+										"$ref": "AAAAAAF1uzlw1byP8Kc="
+									},
+									"edgePosition": 1,
+									"text": "캐릭터"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uzLzcLvgRIQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uzeH37xgXRU="
+							},
+							"lineStyle": 2,
+							"points": "691:457;691:512",
+							"nameLabel": {
+								"$ref": "AAAAAAF1uzlw1byQRF4="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1uz74C7zI/ms=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1uz74CrzGjgY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1uz74DLzJs/s=",
+									"_parent": {
+										"$ref": "AAAAAAF1uz74C7zI/ms="
+									},
+									"model": {
+										"$ref": "AAAAAAF1uz74CrzGjgY="
+									},
+									"font": "Arial;13;0",
+									"left": 596,
+									"top": 399,
+									"width": 39,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1uz74C7zI/ms="
+									},
+									"edgePosition": 1,
+									"text": "이미지"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uzeH37xgXRU="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uyt6lrsrLyw="
+							},
+							"lineStyle": 2,
+							"points": "575:420;656:420",
+							"nameLabel": {
+								"$ref": "AAAAAAF1uz74DLzJs/s="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1u0Cc9LzcGtk=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1u0Cc9LzaseU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1u0Cc9LzdUsI=",
+									"_parent": {
+										"$ref": "AAAAAAF1u0Cc9LzcGtk="
+									},
+									"model": {
+										"$ref": "AAAAAAF1u0Cc9LzaseU="
+									},
+									"font": "Arial;13;0",
+									"left": 535,
+									"top": 568,
+									"width": 82.5703125,
+									"height": 13,
+									"alpha": 1.6539371351201202,
+									"distance": 120.41594578792295,
+									"hostEdge": {
+										"$ref": "AAAAAAF1u0Cc9LzcGtk="
+									},
+									"edgePosition": 1,
+									"text": "회원 개인정보"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uyzW5btIehA="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uzLzcLvgRIQ="
+							},
+							"lineStyle": 2,
+							"points": "648:560;456:560;456:608;441:608",
+							"nameLabel": {
+								"$ref": "AAAAAAF1u0Cc9LzdUsI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1u0D4p7zovzg=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1u0D4przmU6A="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1u0D4p7zp8Q8=",
+									"_parent": {
+										"$ref": "AAAAAAF1u0D4p7zovzg="
+									},
+									"model": {
+										"$ref": "AAAAAAF1u0D4przmU6A="
+									},
+									"font": "Arial;13;0",
+									"left": 304,
+									"top": 368,
+									"width": 69.5703125,
+									"height": 13,
+									"alpha": 4.171968744820313,
+									"distance": 11.661903789690601,
+									"hostEdge": {
+										"$ref": "AAAAAAF1u0D4p7zovzg="
+									},
+									"edgePosition": 1,
+									"text": "회원 데이터"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uyslNbsTpHw="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uyzW5btIehA="
+							},
+							"lineStyle": 2,
+							"points": "376:584;376:384;288:384;288:344",
+							"nameLabel": {
+								"$ref": "AAAAAAF1u0D4p7zp8Q8="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1u0/nS70Hp/M=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1u0/nSr0FG/g="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1u0/nS70Ifkk=",
+									"_parent": {
+										"$ref": "AAAAAAF1u0/nS70Hp/M="
+									},
+									"font": "Arial;13;0",
+									"left": 882,
+									"top": 488,
+									"width": 54.18994140625,
+									"height": 13,
+									"text": "로그인",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1u0/nS70J2bg=",
+									"_parent": {
+										"$ref": "AAAAAAF1u0/nS70Hp/M="
+									},
+									"font": "Arial;13;0",
+									"left": 882,
+									"top": 461,
+									"width": 54.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 872,
+							"top": 456,
+							"width": 74.18994140625,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAF1u0/nS70Ifkk="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1u0/nS70J2bg="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1u1A2EL0U7nQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1u1A2EL0SHYE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1u1A2Eb0VXUo=",
+									"_parent": {
+										"$ref": "AAAAAAF1u1A2EL0U7nQ="
+									},
+									"model": {
+										"$ref": "AAAAAAF1u1A2EL0SHYE="
+									},
+									"font": "Arial;13;0",
+									"left": 855,
+									"top": 552,
+									"width": 94.61181640625,
+									"height": 13,
+									"alpha": -3.7618413635691788,
+									"distance": 17.204650534085253,
+									"hostEdge": {
+										"$ref": "AAAAAAF1u1A2EL0U7nQ="
+									},
+									"edgePosition": 1,
+									"text": "아이디,비밀번호"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1u0/nS70Hp/M="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uzLzcLvgRIQ="
+							},
+							"lineStyle": 2,
+							"points": "832:544;912:544;912:511",
+							"nameLabel": {
+								"$ref": "AAAAAAF1u1A2Eb0VXUo="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1u1CMZ70ikCQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1u1CMZ70g1J0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1u1CMaL0j3Z4=",
+									"_parent": {
+										"$ref": "AAAAAAF1u1CMZ70ikCQ="
+									},
+									"font": "Arial;13;0",
+									"left": 882,
+									"top": 384,
+									"width": 54.18994140625,
+									"height": 26,
+									"text": "정보 수정",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1u1CMaL0kcA8=",
+									"_parent": {
+										"$ref": "AAAAAAF1u1CMZ70ikCQ="
+									},
+									"font": "Arial;13;0",
+									"left": 882,
+									"top": 357,
+									"width": 54.18994140625,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 872,
+							"top": 352,
+							"width": 74.18994140625,
+							"height": 69,
+							"nameLabel": {
+								"$ref": "AAAAAAF1u1CMaL0j3Z4="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1u1CMaL0kcA8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1u1D+qb0wrgU=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1u1D+qb0uRdA="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1u1D+qb0x2Rc=",
+									"_parent": {
+										"$ref": "AAAAAAF1u1D+qb0wrgU="
+									},
+									"model": {
+										"$ref": "AAAAAAF1u1D+qb0uRdA="
+									},
+									"font": "Arial;13;0",
+									"left": 855,
+									"top": 432,
+									"width": 52,
+									"height": 13,
+									"alpha": -4.712388424829134,
+									"distance": 31,
+									"hostEdge": {
+										"$ref": "AAAAAAF1u1D+qb0wrgU="
+									},
+									"edgePosition": 1,
+									"text": "비밀번호"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1u1CMZ70ikCQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1u0/nS70Hp/M="
+							},
+							"lineStyle": 2,
+							"points": "912:456;912:420",
+							"nameLabel": {
+								"$ref": "AAAAAAF1u1D+qb0x2Rc="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1u1FeFr08jdw=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1u1FeFb06zJU="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1u1FeFr09KUk=",
+									"_parent": {
+										"$ref": "AAAAAAF1u1FeFr08jdw="
+									},
+									"model": {
+										"$ref": "AAAAAAF1u1FeFb06zJU="
+									},
+									"font": "Arial;13;0",
+									"left": 388,
+									"top": 156,
+									"width": 114.83544921875,
+									"height": 13,
+									"alpha": -5.169076090598572,
+									"distance": 385.507457774814,
+									"hostEdge": {
+										"$ref": "AAAAAAF1u1FeFr08jdw="
+									},
+									"edgePosition": 1,
+									"text": "날짜,시간,일정 내용"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1u/7kkCziiYk="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1u0/nS70Hp/M="
+							},
+							"lineStyle": 2,
+							"points": "872:488;792:488;792:176;608:176",
+							"nameLabel": {
+								"$ref": "AAAAAAF1u1FeFr09KUk="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1u8ryz5yE0yo=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1u8ryz5yCGas="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1u8ryz5yFJH8=",
+									"_parent": {
+										"$ref": "AAAAAAF1u8ryz5yE0yo="
+									},
+									"model": {
+										"$ref": "AAAAAAF1u8ryz5yCGas="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 154,
+									"top": 165,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1u8ryz5yE0yo="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uyu9s7s394U="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uyrHPLr6oa8="
+							},
+							"lineStyle": 2,
+							"points": "140:136;140:208",
+							"nameLabel": {
+								"$ref": "AAAAAAF1u8ryz5yFJH8="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1u/7kkCziiYk=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1u/7kjizgaI0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1u/7kkSzj0dY=",
+									"_parent": {
+										"$ref": "AAAAAAF1u/7kkCziiYk="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 184,
+									"width": 61,
+									"height": 13,
+									"text": "일정 생성",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1u/7kkSzkivw=",
+									"_parent": {
+										"$ref": "AAAAAAF1u/7kkCziiYk="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 157,
+									"width": 61,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 152,
+							"width": 81,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAF1u/7kkSzj0dY="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1u/7kkSzkivw="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1vAip5S1KVTY=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1vAip5S1IXGQ="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1vAip5S1L4RA=",
+									"_parent": {
+										"$ref": "AAAAAAF1vAip5S1KVTY="
+									},
+									"model": {
+										"$ref": "AAAAAAF1vAip5S1IXGQ="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 396,
+									"top": 160,
+									"width": 111.4140625,
+									"height": 13,
+									"alpha": 4.331881741203657,
+									"distance": 10.770329614269007,
+									"hostEdge": {
+										"$ref": "AAAAAAF1vAip5S1KVTY="
+									},
+									"edgePosition": 1,
+									"text": "일정표,설정된 알람"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1vIhwHb2fRoQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1u/7kkCziiYk="
+							},
+							"lineStyle": 2,
+							"points": "528:176;367:176",
+							"nameLabel": {
+								"$ref": "AAAAAAF1vAip5S1L4RA="
+							}
+						},
+						{
+							"_type": "DFDDataStoreView",
+							"_id": "AAAAAAF1vIhwHb2fRoQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1vIhwHL2d7f0="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1vIhwHb2gNqI=",
+									"_parent": {
+										"$ref": "AAAAAAF1vIhwHb2fRoQ="
+									},
+									"font": "Arial;13;0",
+									"left": 292,
+									"top": 162,
+									"width": 65.76171875,
+									"height": 26,
+									"text": "회원 일정 및 알람 DB",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1vIhwHb2hwUo=",
+									"_parent": {
+										"$ref": "AAAAAAF1vIhwHb2fRoQ="
+									},
+									"font": "Arial;13;0",
+									"left": 277,
+									"top": 162,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 272,
+							"top": 152,
+							"width": 95.76171875,
+							"height": 59,
+							"nameLabel": {
+								"$ref": "AAAAAAF1vIhwHb2gNqI="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1vIhwHb2hwUo="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1vItwDL3Pvi0=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1vItwCr3NlmY="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1vItwDL3QCXs=",
+									"_parent": {
+										"$ref": "AAAAAAF1vItwDL3Pvi0="
+									},
+									"model": {
+										"$ref": "AAAAAAF1vItwCr3NlmY="
+									},
+									"font": "Arial;13;0",
+									"left": 325,
+									"top": 223,
+									"width": 115.984375,
+									"height": 13,
+									"alpha": -3.203242828024983,
+									"distance": 162.30834852218786,
+									"hostEdge": {
+										"$ref": "AAAAAAF1vItwDL3Pvi0="
+									},
+									"edgePosition": 1,
+									"text": "일정표, 알람"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uzLzcLvgRIQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1vIhwHb2fRoQ="
+							},
+							"lineStyle": 2,
+							"points": "320:210;320:240;768:240;768:512",
+							"nameLabel": {
+								"$ref": "AAAAAAF1vItwDL3QCXs="
+							}
+						},
+						{
+							"_type": "DFDProcessView",
+							"_id": "AAAAAAF1wAwIZFkIUJA=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1wAwIY1kGXYE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1wAwIZFkJgeg=",
+									"_parent": {
+										"$ref": "AAAAAAF1wAwIZFkIUJA="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 112,
+									"width": 61,
+									"height": 13,
+									"text": "알람 설정",
+									"wordWrap": true
+								},
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAF1wAwIZFkKw+g=",
+									"_parent": {
+										"$ref": "AAAAAAF1wAwIZFkIUJA="
+									},
+									"font": "Arial;13;0",
+									"left": 538,
+									"top": 85,
+									"width": 61,
+									"height": 13
+								}
+							],
+							"font": "Arial;13;0",
+							"left": 528,
+							"top": 80,
+							"width": 81,
+							"height": 56,
+							"nameLabel": {
+								"$ref": "AAAAAAF1wAwIZFkJgeg="
+							},
+							"idLabel": {
+								"$ref": "AAAAAAF1wAwIZFkKw+g="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1wAxXxlkXOFc=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1wAxXxlkVuzE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1wAxXxlkY0Sw=",
+									"_parent": {
+										"$ref": "AAAAAAF1wAxXxlkXOFc="
+									},
+									"model": {
+										"$ref": "AAAAAAF1wAxXxlkVuzE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 817,
+									"top": 281,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1wAxXxlkXOFc="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1wAwIZFkIUJA="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1u0/nS70Hp/M="
+							},
+							"lineStyle": 2,
+							"points": "872:472;832:472;832:104;608:104",
+							"nameLabel": {
+								"$ref": "AAAAAAF1wAxXxlkY0Sw="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1wA2GtlkkyDk=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1wA2GtVkimqE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1wA2GtlklWFI=",
+									"_parent": {
+										"$ref": "AAAAAAF1wA2GtlkkyDk="
+									},
+									"model": {
+										"$ref": "AAAAAAF1wA2GtVkimqE="
+									},
+									"font": "Arial;13;0",
+									"left": 399,
+									"top": 88,
+									"width": 69.5703125,
+									"height": 13,
+									"alpha": 1.6590617784376658,
+									"distance": 113.44161493913951,
+									"hostEdge": {
+										"$ref": "AAAAAAF1wA2GtlkkyDk="
+									},
+									"edgePosition": 1,
+									"text": "사용자 토큰"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1vIhwHb2fRoQ="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1wAwIZFkIUJA="
+							},
+							"lineStyle": 2,
+							"points": "528:104;320:104;320:152",
+							"nameLabel": {
+								"$ref": "AAAAAAF1wA2GtlklWFI="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1wBJtcVlU2EY=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1wBJtcFlS5LE="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1wBJtcVlVvD8=",
+									"_parent": {
+										"$ref": "AAAAAAF1wBJtcVlU2EY="
+									},
+									"model": {
+										"$ref": "AAAAAAF1wBJtcFlS5LE="
+									},
+									"visible": false,
+									"font": "Arial;13;0",
+									"left": 575,
+									"top": 73,
+									"height": 13,
+									"alpha": 1.5707963267948966,
+									"distance": 15,
+									"hostEdge": {
+										"$ref": "AAAAAAF1wBJtcVlU2EY="
+									},
+									"edgePosition": 1
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uyslNbsTpHw="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1u1CMZ70ikCQ="
+							},
+							"lineStyle": 2,
+							"points": "904:352;904:64;248:64;248:280",
+							"nameLabel": {
+								"$ref": "AAAAAAF1wBJtcVlVvD8="
+							}
+						},
+						{
+							"_type": "DFDDataFlowView",
+							"_id": "AAAAAAF1wBT3t1luSQw=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyqm6Lr0DMg="
+							},
+							"model": {
+								"$ref": "AAAAAAF1wBT3tllsQJI="
+							},
+							"subViews": [
+								{
+									"_type": "EdgeLabelView",
+									"_id": "AAAAAAF1wBT3t1lv7tI=",
+									"_parent": {
+										"$ref": "AAAAAAF1wBT3t1luSQw="
+									},
+									"model": {
+										"$ref": "AAAAAAF1wBT3tllsQJI="
+									},
+									"font": "Arial;13;0",
+									"left": 383,
+									"top": 343,
+									"width": 83.5859375,
+									"height": 13,
+									"alpha": 2.0899429795027924,
+									"distance": 16.1245154965971,
+									"hostEdge": {
+										"$ref": "AAAAAAF1wBT3t1luSQw="
+									},
+									"edgePosition": 1,
+									"text": "bmi 수치 저장"
+								}
+							],
+							"font": "Arial;13;0",
+							"head": {
+								"$ref": "AAAAAAF1uyslNbsTpHw="
+							},
+							"tail": {
+								"$ref": "AAAAAAF1uzQJM7wN1eQ="
+							},
+							"lineStyle": 2,
+							"points": "488:336;344:336",
+							"nameLabel": {
+								"$ref": "AAAAAAF1wBT3t1lv7tI="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF1uyrHPLr48os=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "운영자",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1u8ryz5yCGas=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyrHPLr48os="
+							},
+							"source": {
+								"$ref": "AAAAAAF1uyrHPLr48os="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uyu9srs1tns="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAF1uyslNbsRbp0=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "회원정보 DB",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uzQwRrwXzuI=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyslNbsRbp0="
+							},
+							"name": "신체 정보",
+							"source": {
+								"$ref": "AAAAAAF1uyslNbsRbp0="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uzQJMrwLHvg="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uzXO2bxE3cQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyslNbsRbp0="
+							},
+							"name": "월초 몸무게",
+							"source": {
+								"$ref": "AAAAAAF1uyslNbsRbp0="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uzWYVLw3l5E="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAF1uys537sd0ds=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "운동 DB",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uy8KCLt+kZY=",
+							"_parent": {
+								"$ref": "AAAAAAF1uys537sd0ds="
+							},
+							"source": {
+								"$ref": "AAAAAAF1uys537sd0ds="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uy48AbtuuJk="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAF1uyt6lbspDK4=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "그림 DB",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uz74CrzGjgY=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyt6lbspDK4="
+							},
+							"name": "이미지",
+							"source": {
+								"$ref": "AAAAAAF1uyt6lbspDK4="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uzeH37xeTyM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1uyu9srs1tns=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "데이터베이스 관리",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uy//UbuSWaY=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyu9srs1tns="
+							},
+							"source": {
+								"$ref": "AAAAAAF1uyu9srs1tns="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uyslNbsRbp0="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uzC4Eruk6Yg=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyu9srs1tns="
+							},
+							"source": {
+								"$ref": "AAAAAAF1uyu9srs1tns="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uys537sd0ds="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1uyzW5LtGAi4=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "회원가입",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1u0D4przmU6A=",
+							"_parent": {
+								"$ref": "AAAAAAF1uyzW5LtGAi4="
+							},
+							"name": "회원 데이터",
+							"source": {
+								"$ref": "AAAAAAF1uyzW5LtGAi4="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uyslNbsRbp0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1uy48AbtuuJk=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "운동 가이드라인/영상제공",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uzPo+rwCZdk=",
+							"_parent": {
+								"$ref": "AAAAAAF1uy48AbtuuJk="
+							},
+							"name": "운동 방법 및 영상",
+							"source": {
+								"$ref": "AAAAAAF1uy48AbtuuJk="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uzLzcLve6AM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDExternalEntity",
+					"_id": "AAAAAAF1uzLzcLve6AM=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "회원",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1u0Cc9LzaseU=",
+							"_parent": {
+								"$ref": "AAAAAAF1uzLzcLve6AM="
+							},
+							"name": "회원 개인정보",
+							"source": {
+								"$ref": "AAAAAAF1uzLzcLve6AM="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uyzW5LtGAi4="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1u1A2EL0SHYE=",
+							"_parent": {
+								"$ref": "AAAAAAF1uzLzcLve6AM="
+							},
+							"name": "아이디,비밀번호",
+							"source": {
+								"$ref": "AAAAAAF1uzLzcLve6AM="
+							},
+							"target": {
+								"$ref": "AAAAAAF1u0/nSr0FG/g="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1uzQJMrwLHvg=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "bmi 수치 계산",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uzRmyrwiZEA=",
+							"_parent": {
+								"$ref": "AAAAAAF1uzQJMrwLHvg="
+							},
+							"name": "bmi 정보,사용자 성별",
+							"source": {
+								"$ref": "AAAAAAF1uzQJMrwLHvg="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uzeH37xeTyM="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uzfCUrxsU/4=",
+							"_parent": {
+								"$ref": "AAAAAAF1uzQJMrwLHvg="
+							},
+							"source": {
+								"$ref": "AAAAAAF1uzQJMrwLHvg="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uzeH37xeTyM="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1wBT3tllsQJI=",
+							"_parent": {
+								"$ref": "AAAAAAF1uzQJMrwLHvg="
+							},
+							"name": "bmi 수치 저장",
+							"source": {
+								"$ref": "AAAAAAF1uzQJMrwLHvg="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uyslNbsRbp0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1uzWYVLw3l5E=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "그래프 만들기",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uzZGnbxP21E=",
+							"_parent": {
+								"$ref": "AAAAAAF1uzWYVLw3l5E="
+							},
+							"name": "월별 몸무게 변화 그래프",
+							"source": {
+								"$ref": "AAAAAAF1uzWYVLw3l5E="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uzLzcLve6AM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1uzeH37xeTyM=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "캐릭터 외형 모션",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1uzlw1LyNDkM=",
+							"_parent": {
+								"$ref": "AAAAAAF1uzeH37xeTyM="
+							},
+							"name": "캐릭터",
+							"source": {
+								"$ref": "AAAAAAF1uzeH37xeTyM="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uzLzcLve6AM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1u0/nSr0FG/g=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "로그인",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1u1D+qb0uRdA=",
+							"_parent": {
+								"$ref": "AAAAAAF1u0/nSr0FG/g="
+							},
+							"name": "비밀번호",
+							"source": {
+								"$ref": "AAAAAAF1u0/nSr0FG/g="
+							},
+							"target": {
+								"$ref": "AAAAAAF1u1CMZ70g1J0="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1wAxXxlkVuzE=",
+							"_parent": {
+								"$ref": "AAAAAAF1u0/nSr0FG/g="
+							},
+							"source": {
+								"$ref": "AAAAAAF1u0/nSr0FG/g="
+							},
+							"target": {
+								"$ref": "AAAAAAF1wAwIY1kGXYE="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1u1CMZ70g1J0=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "정보 수정",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1u1FeFb06zJU=",
+							"_parent": {
+								"$ref": "AAAAAAF1u1CMZ70g1J0="
+							},
+							"name": "날짜,시간,일정 내용",
+							"source": {
+								"$ref": "AAAAAAF1u0/nSr0FG/g="
+							},
+							"target": {
+								"$ref": "AAAAAAF1u/7kjizgaI0="
+							}
+						},
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1wBJtcFlS5LE=",
+							"_parent": {
+								"$ref": "AAAAAAF1u1CMZ70g1J0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1u1CMZ70g1J0="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uyslNbsRbp0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1u/7kjizgaI0=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "일정 생성",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1vAip5S1IXGQ=",
+							"_parent": {
+								"$ref": "AAAAAAF1u/7kjizgaI0="
+							},
+							"source": {
+								"$ref": "AAAAAAF1u/7kjizgaI0="
+							},
+							"target": {
+								"$ref": "AAAAAAF1vIhwHL2d7f0="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDDataStore",
+					"_id": "AAAAAAF1vIhwHL2d7f0=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "회원 일정 및 알람 DB",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1vItwCr3NlmY=",
+							"_parent": {
+								"$ref": "AAAAAAF1vIhwHL2d7f0="
+							},
+							"name": "일정표, 알람",
+							"source": {
+								"$ref": "AAAAAAF1vIhwHL2d7f0="
+							},
+							"target": {
+								"$ref": "AAAAAAF1uzLzcLve6AM="
+							}
+						}
+					]
+				},
+				{
+					"_type": "DFDProcess",
+					"_id": "AAAAAAF1wAwIY1kGXYE=",
+					"_parent": {
+						"$ref": "AAAAAAF1uyqm57rzji0="
+					},
+					"name": "알람 설정",
+					"ownedElements": [
+						{
+							"_type": "DFDDataFlow",
+							"_id": "AAAAAAF1wA2GtVkimqE=",
+							"_parent": {
+								"$ref": "AAAAAAF1wAwIY1kGXYE="
+							},
+							"name": "사용자 토큰",
+							"source": {
+								"$ref": "AAAAAAF1wAwIY1kGXYE="
+							},
+							"target": {
+								"$ref": "AAAAAAF1vIhwHL2d7f0="
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
